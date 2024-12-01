@@ -1,0 +1,82 @@
+*{
+padding:0px;
+font-family: sans-serif;
+
+}
+.Training-section{
+    width: 100%;
+    background:url(images/back.png) center;
+
+    background-size: cover;
+    padding: -80px 0px;
+}
+.Training-section h1{
+    text-align: center;
+    padding: 25px 0px;
+}
+.container{
+    width: 1170px;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.Traning-item img{
+    height: 150px;
+    height: 100px;
+    border-radius:10px;
+}
+
+.Traning-item{
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 3px lightgray;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    
+}
+
+.Traning-item h3{
+    padding: 10px 0px;
+}
+.Traning-item p{
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+}
+.Traning-item button{
+    background-color: blue;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+}
+.Traning-item:hover{
+    background-color: blue;
+   
+}
+
+.Traning-item:hover h3,.Traning-item:hover p{
+    color: white;
+
+}
+.Traning-item button{
+    font-size: 20px;
+    color: black;
+    font-family:arial;
+}
+.Traning-item:hover button{
+    background-color:red;
+    color: white;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .container{
+        flex-direction:column;
+        width: 100%;
+    }
+    .Traning-item{
+        margin: 10px;
+    }
+}
